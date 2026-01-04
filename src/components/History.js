@@ -31,6 +31,7 @@ export default function History() {
       <table>
         <thead>
           <tr>
+            <th>S.No</th>
             <th>Date</th>
             <th>Brand</th>
             <th>Used Ingredients</th>
@@ -40,7 +41,7 @@ export default function History() {
         <tbody>
           {history.length === 0 && (
             <tr>
-              <td colSpan="3" style={{ textAlign: "center", opacity: 0.7 }}>
+              <td colSpan="4" style={{ textAlign: "center", opacity: 0.7 }}>
                 No production history available
               </td>
             </tr>
@@ -48,6 +49,7 @@ export default function History() {
 
           {history.map((entry, idx) => (
             <tr key={idx}>
+              <td>{idx + 1}</td>
               <td>{entry.date}</td>
               <td>{entry.brand}</td>
               <td>

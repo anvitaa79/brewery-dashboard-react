@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/brewery-dashboard-react/static/css/main.8a3ac034.css",
-    "main.js": "/brewery-dashboard-react/static/js/main.302d7766.js",
+    "main.js": "/brewery-dashboard-react/static/js/main.e952260e.js",
     "index.html": "/brewery-dashboard-react/index.html",
     "main.8a3ac034.css.map": "/brewery-dashboard-react/static/css/main.8a3ac034.css.map",
-    "main.302d7766.js.map": "/brewery-dashboard-react/static/js/main.302d7766.js.map"
+    "main.e952260e.js.map": "/brewery-dashboard-react/static/js/main.e952260e.js.map"
   },
   "entrypoints": [
     "static/css/main.8a3ac034.css",
-    "static/js/main.302d7766.js"
+    "static/js/main.e952260e.js"
   ]
 }
