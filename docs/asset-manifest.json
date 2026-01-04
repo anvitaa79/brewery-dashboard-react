@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/brewery-dashboard-react/static/css/main.faae5271.css",
+    "main.js": "/brewery-dashboard-react/static/js/main.0daf2ce9.js",
+    "index.html": "/brewery-dashboard-react/index.html",
+    "main.faae5271.css.map": "/brewery-dashboard-react/static/css/main.faae5271.css.map",
+    "main.0daf2ce9.js.map": "/brewery-dashboard-react/static/js/main.0daf2ce9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faae5271.css",
+    "static/js/main.0daf2ce9.js"
+  ]
+}
