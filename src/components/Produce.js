@@ -2,10 +2,29 @@ import { useEffect, useState } from "react";
 
 /* ================= SAME DATA ================= */
 const BRANDS = {
-  Lager: { rice: 50, sugar: 10, water: 100, hops: 5, malt: 20, enzymes: 2 },
-  IPA: { rice: 30, sugar: 15, water: 120, hops: 15, malt: 30, enzymes: 3 },
-  Stout: { rice: 40, sugar: 20, water: 110, hops: 10, malt: 40, enzymes: 4 }
+  "Kingfisher Strong": {
+    sugar: 18,
+    water: 120,
+    hops: 8,
+    malt: 35,
+    enzymes: 3
+  },
+  "Kingfisher Premium": {
+    sugar: 12,
+    water: 110,
+    hops: 6,
+    malt: 28,
+    enzymes: 2
+  },
+  Heineken: {
+    sugar: 10,
+    water: 115,
+    hops: 10,
+    malt: 32,
+    enzymes: 3
+  }
 };
+
 
 const RECIPE_UNITS = {
   rice: "kg",
