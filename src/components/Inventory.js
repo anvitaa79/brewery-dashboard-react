@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 /* ================= CONSTANTS (UNCHANGED) ================= */
 const DEFAULT_INVENTORY = {
   rice: { qty: 1000, unit: "kg" },
-  sugar: { qty: 500, unit: "kg" },
-  water: { qty: 2000, unit: "L" },
-  hops: { qty: 200, unit: "%" },
-  malt: { qty: 300, unit: "kg" },
-  enzymes: { qty: 100, unit: "g" }
+  sugar: { qty: 3000, unit: "kg" },
+  water: { qty: 5000, unit: "L" },
+  hops: { qty: 500, unit: "g" },
+  malt: { qty: 7000, unit: "kg" },
+  enzymes: { qty: 1000, unit: "g" }
 };
 
 const STORAGE_INV = "brew_inventory_v3";
@@ -40,7 +40,7 @@ export default function Inventory({ currentRole }) {
   }, [inventory]);
 
   /* ================= HELPERS ================= */
-  const isLowStock = (qty, unit) => qty <= (unit === "g" ? 20 : 50);
+  const isLowStock = (qty, unit) => qty <= (unit === "g" ? 20 : 150);
 
   const updateLowStockAlert = () => {
     const lowItems = Object.entries(inventory)
